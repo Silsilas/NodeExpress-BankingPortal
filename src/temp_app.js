@@ -33,4 +33,4 @@ app.get('/profile', (req, res)=>{
     res.render('profile',{users:users[0]})
 })
 
-app.listen(3000, () => console.log('PS Project running on port 3000!'))
+app.listen(3000);
